@@ -84,8 +84,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color:
-    #8f8313;
+  color: #8f8313;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -103,8 +102,7 @@ section .title::after {
 
 .navbar.sticky {
   padding: 15px 0;
-  background:
-    #8f8313;
+  background: #8f8313;
 }
 
 .navbar .max-width {
@@ -120,8 +118,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-  color:
-    #8f8313;
+  color: #8f8313;
   transition: all 0.3s ease;
 }
 
@@ -144,8 +141,7 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-  color:
-    #8f8313;
+  color: #8f8313;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -160,13 +156,11 @@ section .title::after {
   display: none;
 }
 
-
 .scroll-up-btn {
   position: fixed;
   height: 45px;
   width: 42px;
-  background:
-    #8f8313;
+  background: #8f8313;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -195,7 +189,8 @@ section .title::after {
 /* home section styling */
 .homeCss {
   display: flex;
-  background: url("https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg") no-repeat center;
+  background: url("https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg")
+    no-repeat center;
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -229,15 +224,13 @@ section .title::after {
 }
 
 .homeCss .home-content .text-3 span {
-  color:
-    #8f8313;
+  color: #8f8313;
   font-weight: 500;
 }
 
 .homeCss .home-content a {
   display: inline-block;
-  background:
-    #8f8313;
+  background: #8f8313;
   color: #fff;
   font-size: 18px;
   padding: 12px 36px;
@@ -250,8 +243,7 @@ section .title::after {
 }
 
 .homeCss .home-content a:hover {
-  color:
-    #8f8313;
+  color: #8f8313;
   background: none;
 }
 
@@ -282,8 +274,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-  color:
-    #8f8313;
+  color: #8f8313;
 }
 
 .about .about-content .right p {
@@ -292,8 +283,7 @@ section .title::after {
 
 .about .about-content .right a {
   display: inline-block;
-  background:
-    #8f8313;
+  background: #8f8313;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -305,12 +295,11 @@ section .title::after {
 }
 
 .about .about-content .right a:hover {
-  color:
-    #8f8313;
+  color: #8f8313;
   background: none;
 }
 
-.about .about-content .right>p {
+.about .about-content .right > p {
   font-size: 25px;
   margin-top: 20px;
 }
@@ -344,8 +333,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-  background:
-    #8f8313;
+  background: #8f8313;
 }
 
 .services .serv-content .card .project-card {
@@ -358,8 +346,7 @@ section .title::after {
 
 .services .serv-content .card i {
   font-size: 50px;
-  color:
-    #8f8313;
+  color: #8f8313;
   transition: color 0.3s ease;
 }
 
@@ -395,8 +382,7 @@ section .title::after {
 
 .skills .skills-content .left a {
   display: inline-block;
-  background:
-    #8f8313;
+  background: #8f8313;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
@@ -408,8 +394,7 @@ section .title::after {
 }
 
 .skills .skills-content .left a:hover {
-  color:
-    #8f8313;
+  color: #8f8313;
   background: none;
 }
 
@@ -442,8 +427,7 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background:
-    #8f8313;
+  background: #8f8313;
 }
 
 .skills-content .right .html::before {
@@ -466,6 +450,28 @@ section .title::after {
   width: 40%;
 }
 
+.column .right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.logo img {
+  width: 50%;
+  aspect-ratio: 2/2.7;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.logo{
+  transition: transform 0.5s ease;
+}
+
+.logo:hover {
+  transform:  translateX(20px);
+  /* transform: translateY(-15px); Moves the div 20 pixels up on hover */
+}
+
 /* teams section styling */
 .teams .title::after {
   content: "Solo & Group";
@@ -481,8 +487,7 @@ section .title::after {
 }
 
 .teams .carousel .card:hover {
-  background:
-    #8f8313;
+  background: #8f8313;
 }
 
 .teams .carousel .card .project-card {
@@ -537,8 +542,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-  background:
-    #8f8313 !important;
+  background: #8f8313 !important;
 }
 
 /* contact section styling */
@@ -576,8 +580,7 @@ section .title::after {
 
 .contact .contact-content .row i {
   font-size: 25px;
-  color:
-    #8f8313;
+  color: #8f8313;
 }
 
 .contact .contact-content .info .head {
@@ -648,16 +651,14 @@ section .title::after {
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background:
-    #8f8313;
+  background: #8f8313;
   border: 2px solid #8f8313;
   transition: all 0.3s ease;
   margin-top: 20px;
 }
 
 .right form .button-area button:hover {
-  color:
-    #8f8313;
+  color: #8f8313;
   background: none;
 }
 
@@ -670,8 +671,7 @@ footer {
 }
 
 footer span a {
-  color:
-    #8f8313;
+  color: #8f8313;
   text-decoration: none;
 }
 
@@ -679,7 +679,7 @@ footer span a:hover {
   text-decoration: underline;
 }
 
-#gitHub>h1 {
+#gitHub > h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -692,12 +692,12 @@ footer span a:hover {
   gap: 10px;
 }
 
-#gitHubContent>img {
+#gitHubContent > img {
   width: 45%;
   margin: auto;
 }
 
-#gitHubContent>.react-activity-calendar {
+#gitHubContent > .react-activity-calendar {
   width: 80%;
 }
 
@@ -894,7 +894,7 @@ footer span a:hover {
     line-height: 38px;
   }
 
-  #gitHub>img {
+  #gitHub > img {
     width: 50%;
     height: 50%;
     flex-direction: column-reverse;
